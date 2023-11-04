@@ -9,6 +9,7 @@ a {
 
 * {
     box-sizing: border-box;
+    outline: 1px solid red !important;
 }
 
 header {
@@ -43,20 +44,22 @@ header {
 .content__text {
     font-size: 80px;
     position: absolute;
-    top: 400px;
+    top: 60%;
 }
 
 .content__block {
     background-color: blue;
-    height: 300px;
-    width: 1500px;
+    height: 40%;
+    width: 80%;
     position: absolute;
-    top: 500px;
+    top: 80%;
+    z-index: 0;
 }
 
 .content__firstview {
-    position: absolute;
-    top: 100px;
-    left: 1030px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
     z-index: 10;
 }
